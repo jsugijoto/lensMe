@@ -1,0 +1,167 @@
+@font-face{
+    font-family: Gidole;
+    src: url('Gidole-Regular.otf')
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: Gidole, Fallback, sans-serif;
+    color: #FFC84A;
+    letter-spacing: 15px;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+    padding-left: 100px      ;
+    padding-right: 100px;
+    color: gray;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.title{
+    text-align: center;
+    font-family: Gidole, Fallback, sans-serif;
+}
+
+.list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-bottom: thin silver solid;
+}
+
+li:hover{
+    background: #F0F0F0;
+    cursor: pointer;
+    }
+
+#regForm{
+    background-color: transparent;
+    margin: auto; 
+    padding-top:100px;
+    width:70%;
+    min-height: 250px;
+    font-size: 30px;
+
+}
+
+input.invalid {
+    background-color: #ffdddf;
+}
+
+input{
+    padding:10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Gidole, Fallback, sans-serif;
+    border: 1px solid #aaaa;
+}
+
+.tab{
+    display: none;
+}
+
+.fb{
+    float: right;
+    text-align: center;
+}
+
+.step{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+}
+
+fieldset{
+    text-align: center;
+    min-height: 450px;
+    background: #344a5c;
+    border: 0;
+    background-image: url("imagine_Banner_1200x475_G.webp");
+    background-repeat: no-repeat;
+}
+
+button{
+    border: none;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-family: Gidole;
+    color: gray;
+    font-size: 20px;
+    position: center;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: #F0F0F0;
+}
+
+a:visited{
+    color:gray;
+}
+
+.prescribe{
+    font-family: Gidole;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    float: right;
+    padding-right: 200px;
+    max-width: 600px;
+
+}
+
+.recommend{
+    color: gray;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+
+.display{
+    align-self: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 100%;
+}
+
+.display:hover{
+    background-color: #F0F0F0;
+}
+
+.container{
+    font-family: Gidole;
+    font-size: 30px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 25%;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}

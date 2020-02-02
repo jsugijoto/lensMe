@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LensME</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="./scripts.js"></script>
+</head>
+<body style="font-family: Gidole">
+    <div class='header'>
+        <h1 style='margin: 20px'>LENSME</h1>
+    </div>
+    <nav id='navbar'>
+        <ul class='links'>
+            <li id='box' class='list'>About Us</li>
+            <li id='box' class='list'>What Your Prescription Means</li>
+            <li id='box' class='list'><a href="index.html" style='text-decoration: none; color: gray;'>Restart</a></li>
+            <li id='box' class='list'>Contact Us</li>
+        </ul>   
+    </nav>
+    <fieldset> 
+        <form id='regForm'> 
+            <div class='tab'>
+            </div>
+            <div class='tab' style="color: white"> What is your sphere?
+                <p><input id="sphere" placeholder="-10.00 to +10.00" oninput="this.className = ''"></p>
+            </div>
+            <div class='tab' id='ask'style="color: white; font-size: 35px;">Do you have a cylinder?
+                <p style="font-size: 15px; color: white">(A second number on your prescription)</p>
+                <input type='radio' name='cyl' id='no' value='0'>No<br>
+                <input type='radio' name='cyl' id='yes' onclick="showDiv()" value='1'>Yes<br>
+            </div>
+            <div id='cyl' class='tab' style='color: white; font-size: 35px;'>What is your cylinder?
+                <p style='font-size:15px; color: white;'><input placeholder="Cylinder..." oninput="this.className=''"></p>
+            </div>
+            <div id='axis' class='tab' style='color: white; font-size: 35px;'>What is your axis?
+                <p style='font-size:15px; color: white;'><input placeholder='Axis...' oninput='this.className'></p>
+            </div>
+            <div>
+                <div class='fb'>
+                  <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                  <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                </div>
+            </div>
+        </form>
+    </fieldset>
+    </div>
+</body>
+</html>
